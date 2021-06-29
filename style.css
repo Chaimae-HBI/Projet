@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* font-family: 'Playfair Display', serif; */
+/*   */
+body{
+  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style:none ;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 14, 32);
+}
+
+/* navbar */
+nav{
+    overflow: hidden;
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+ header li{
+float: right;
+font-size: 1.2em;
+
+ }
+header li a{
+  display: block;
+  text-align: center;
+  padding: 18px 16px;
+}
+
+/* .hot{
+    font-family: 'Dancing Script', cursive;
+    /* font-size: 1.2em; */
+
+#logo{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  /* font-size: 40px; */
+  float: left;
+}
+/* photo P */
+#image{
+    padding-top:60px ;
+    background: url(image/kik.jpg) no-repeat 50% 50%;
+    background-size: cover;
+     height: 800px;
+   
+   
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 5rem;
+    margin-top: 9rem;
+    text-shadow:  1px 3px 2px black;
+}
+.ps{
+height: 1px;
+width: 20%;
+margin: -3px auto;
+background-color: blanchedalmond;
+
+}
+.color{
+    color: blanchedalmond;
+    opacity: 0.9;
+}
+h3{
+    text-align: center;
+    color: blanchedalmond;
+    /* color: rgb(196, 175, 245); */
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
+    text-shadow:  1px 3px 2px black;
+}
+/* section1 */
+#presentation{
+    background-color: rgb(17, 14, 32);
+    padding: 1px 0px 100px 0;
+    border-radius: 5px;
+/*  rgb(201, 188, 188); */
+}
+.p1{
+    padding: 0px 20%;
+}
+#images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+#images h4{
+    font-family:  'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 15px;
+    font-weight: 300;
+    color: rgb(245, 222, 188);
+}
+#images img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    /* box-shadow: 3px 3px 2px 1px rgb(212, 208, 208); */
+
+}
+#images img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+
+}
+/* section2 */
+#autre {
+height: 1300px;
+background-color: #f1f2f6;
+padding: 1px 2%;
+
+}
+#autre h2{
+    padding-top:60px;
+}
+
+
+.ocean {
+    background: url(image/j/1.jpg);
+  }
+.chateau {
+    background: url(image/j/2.JPG);
+  }
+.pGironde{
+    background: url(image/j/3.JPG);
+  }
+  .vignoble{
+    background: url(image/j/4.jpg);
+  }
+
+
+#autre li{
+    margin: 60px 100px 0 100px;
+    height: 200px;
+    width: 500px;
+    max-width: 550px;
+    float: left;  
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);     
+}
+
+
+#autre p {
+    height: 45px;
+    width: 235px;
+    background-color: rgb(245, 222, 188);
+    float:right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 2px 2px 0 1px rgb(17, 22, 14);
+  }
+  #autre .chateau, #autre .vignoble{
+    float: right;
+
+  }
+  .chateau p, .vignoble p {
+    float: left;
+    background-color: rgb(17, 14, 32);
+    margin-left: -100px;
+    box-shadow: -4px 4px 0 1px rgb(17, 14, 32);
+  }
+
+  #autre .chateau:hover, #autre .vignoble:hover,  #autre .pGironde:hover, #autre .ocean:hover{
+  opacity: 0.5;
+    transform: scale(1.05);
+  }
+/* footer */
+footer {
+  background-color: rgb(17, 14, 32);
+  color:rgb(245, 222, 188);
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+  }
+  button{
+     background-color:rgb(245, 222, 188);
+     font-size: 1.5em;
+     padding: 5px 10px 5px 10px;
+    
+
+  }
+  textarea{
+      height: 100px;
+  }
+  button:hover {
+    background-color: rgb(17, 14, 32);;
+    color: rgb(245, 222, 188);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    }
+ 
+.dt{
+        height: 1px;
+        width: 75%;
+        background-color:rgb(245, 222, 188);
+        margin: 60px auto;
+      }
+.ci{
+        display: flex;
+        margin-bottom: 20px;
+        padding: 0 10%;
+      }
+      .copyr{
+        width: 50%;
+        text-align: left;
+        color: rgb(245, 222, 188);
+      }
+      #icons {
+        width: 50%;
+        text-align: right;
+      }
+      #icons a {
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 1.3em;
+        color: rgb(245, 222, 188);
+      }
+      #icons a:hover {
+        transform: scale(1.5);
+        transition: 0.1s;
+      }
+      
